@@ -5,7 +5,7 @@ const routes = require("./routes");
 
 const app = express();
 
-mongoose.connect('mongodb+srv://root:Y7xU7CCvVmbUkNa4@cluster0.aa4ya.mongodb.net/test?authSource=admin&replicaSet=atlas-w2qdkc-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true', {
+mongoose.connect('mongodb+srv://admin:<password>@cluster0.bk36w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
   useNewUrlParser:true,
   useUnifiedTopology:true
 });
